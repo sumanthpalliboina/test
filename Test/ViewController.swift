@@ -33,7 +33,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var input2: UITextField!
     
     @IBAction func sayHello(_ sender: Any) {
-        print("Hello")
+          print("Hello")
         if progressBar.progress < 1.0 {
             progressBar.setProgress(progressBar.progress + 0.1, animated: true)
         }
